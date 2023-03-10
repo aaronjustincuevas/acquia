@@ -6,3 +6,12 @@ config:
   database: mariadb:10.5
 
 
+excludes:
+  - vendor
+  # - docroot/core
+  - docroot/modules/contrib
+  - docroot/profiles/contrib
+  - docroot/themes/contrib
+  - docroot/libraries
+  - docroot/themes/custom/possibilities/node_modules
+  - docroot/sites/default/files
