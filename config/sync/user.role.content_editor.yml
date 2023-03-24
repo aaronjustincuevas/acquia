@@ -5,6 +5,7 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - node.type.waterfall
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -46,3 +47,22 @@ permissions:
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'
+  - 'create waterfall content'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete any waterfall content'
+  - 'delete own waterfall content'
+  - 'delete waterfall revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any waterfall content'
+  - 'edit own waterfall content'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'revert waterfall revisions'
+  - 'view article revisions'
+  - 'view page revisions'
+  - 'view waterfall revisions'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'delete all revisions'

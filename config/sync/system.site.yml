@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 3422f50a-02b0-48db-9052-fba7a0bae9ae
-name: MSLL
+name: 'The Water Handbook'
 mail: MSSL-test@email.com
 slogan: ''
 page:
