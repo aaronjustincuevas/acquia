@@ -1,0 +1,20 @@
+uuid: f2d7cb80-54fe-494e-9c4b-3abf69f64ba9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_anime_picture
+field_name: field_anime_picture
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

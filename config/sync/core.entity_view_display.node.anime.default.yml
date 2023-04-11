@@ -1,0 +1,38 @@
+uuid: 12880607-a8bd-41ed-982a-17c43620cc27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.anime.field_anime_picture
+    - field.field.node.anime.field_anime_summary
+    - node.type.anime
+  module:
+    - text
+    - user
+id: node.anime.default
+targetEntityType: node
+bundle: anime
+mode: default
+content:
+  field_anime_picture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_anime_summary:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

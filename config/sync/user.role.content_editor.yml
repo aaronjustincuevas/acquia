@@ -3,6 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
     - node.type.article
     - node.type.page
     - node.type.waterfall
@@ -11,6 +16,7 @@ dependencies:
     - comment
     - contextual
     - file
+    - media
     - node
     - path
     - system
@@ -66,3 +72,37 @@ permissions:
   - 'administer nodes'
   - 'bypass node access'
   - 'delete all revisions'
+  - 'create audio media'
+  - 'create document media'
+  - 'create image media'
+  - 'create remote_video media'
+  - 'create video media'
+  - 'delete any audio media'
+  - 'delete any document media'
+  - 'delete any image media'
+  - 'delete any remote_video media'
+  - 'delete any video media'
+  - 'delete own audio media'
+  - 'delete own document media'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete own video media'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'access media overview'
+  - 'administer media'
+  - 'create media'
+  - 'delete any media'
+  - 'delete media'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
+  - 'view own unpublished media'

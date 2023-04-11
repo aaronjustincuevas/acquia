@@ -1,0 +1,24 @@
+uuid: 7c89b8c6-9408-401a-beee-17bd490b9cb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anime.field_anime_picture
+    - field.field.node.anime.field_anime_summary
+    - node.type.anime
+  module:
+    - user
+id: node.anime.teaser
+targetEntityType: node
+bundle: anime
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_anime_picture: true
+  field_anime_summary: true

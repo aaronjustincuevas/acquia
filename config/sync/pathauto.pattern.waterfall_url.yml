@@ -1,0 +1,22 @@
+uuid: ce71301d-b986-44c8-9c94-94b545d15d4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: waterfall_url
+label: 'Waterfall URL'
+type: 'canonical_entities:node'
+pattern: '/waterfall/[node:title]'
+selection_criteria:
+  eb93cadb-956e-4b90-824c-26ed5fd8b0ce:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: eb93cadb-956e-4b90-824c-26ed5fd8b0ce
+    context_mapping:
+      node: node
+    bundles:
+      waterfall: waterfall
+selection_logic: and
+weight: -5
+relationships: {  }

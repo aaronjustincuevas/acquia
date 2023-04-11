@@ -1,0 +1,23 @@
+uuid: 66b100fd-5cf0-4f36-8749-f8132b827a06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anime_summary
+    - node.type.anime
+  module:
+    - text
+id: node.anime.field_anime_summary
+field_name: field_anime_summary
+entity_type: node
+bundle: anime
+label: 'Anime Summary'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
